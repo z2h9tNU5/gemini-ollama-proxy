@@ -1,0 +1,11 @@
+[project]
+name = "gemini-ollama-proxy"
+version = "0.1.0"
+description = "OpenAI-compatible local proxy for Google Gemini API"
+requires-python = ">=3.10"
+
+dependencies = [
+  "fastapi",
+  "uvicorn",
+  "google-generativeai"
+]
